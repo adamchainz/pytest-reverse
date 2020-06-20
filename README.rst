@@ -6,7 +6,7 @@ pytest-reverse
    :target: https://github.com/adamchainz/pytest-reverse/actions?workflow=CI
 
 .. image:: https://img.shields.io/pypi/v/pytest-reverse.svg
-   :target: https://pypi.python.org/pypi/pytest-reverse
+   :target: https://pypi.org/project/pytest-reverse/
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
    :target: https://github.com/python/black
