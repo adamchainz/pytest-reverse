@@ -13,9 +13,8 @@ pytest-reverse
 
 Pytest plugin to reverse test order.
 
------
-Usage
------
+Installation
+============
 
 Install from pip with:
 
@@ -24,6 +23,9 @@ Install from pip with:
     python -m pip install pytest-reverse
 
 Python 3.5 to 3.8 supported.
+
+Usage
+=====
 
 Pytest will automatically find the plugin and use it when you run ``pytest``.
 You can reverse test order by passing the ``--reverse`` flag:
@@ -41,9 +43,8 @@ file <https://docs.pytest.org/en/latest/customize.html#adding-default-options>`_
     [pytest]
     addopts = --reverse
 
--------
 History
--------
+=======
 
 I'm the creator and maintainer of
 `pytest-randomly <https://github.com/pytest-dev/pytest-randomly>`__, a plugin
