@@ -22,7 +22,7 @@ Install from pip with:
 
     python -m pip install pytest-reverse
 
-Python 3.5 to 3.8 supported.
+Python 3.5 to 3.9 supported.
 
 ----
 
