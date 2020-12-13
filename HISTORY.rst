@@ -2,8 +2,10 @@
 History
 =======
 
-* Drop Python 3.5 support.
+1.1.0 (2020-12-13)
+------------------
 
+* Drop Python 3.5 support.
 * Support Python 3.9.
 * Move license from BSD to MIT License.
 
