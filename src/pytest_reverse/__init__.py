@@ -7,7 +7,7 @@ from _pytest.nodes import Item
 
 
 def pytest_addoption(parser: Parser) -> None:
-    group = parser.getgroup("reverse", "Reverse test order")
+    group = parser.getgroup("reverse", "pytest-reverse")
     group._addoption(
         "--reverse",
         action="store_true",
