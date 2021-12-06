@@ -20,7 +20,7 @@ Pytest plugin to reverse test order.
 Installation
 ============
 
-Install from pip with:
+Install with:
 
 .. code-block:: bash
 
