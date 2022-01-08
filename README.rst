@@ -31,7 +31,8 @@ Python 3.6 to 3.10 supported.
 ----
 
 **Testing a Django project?**
-Check out my book `Speed Up Your Django Tests <https://gumroad.com/l/suydt>`__ which covers loads of best practices so you can write faster, more accurate tests.
+Check out my book `Speed Up Your Django Tests <https://adamchainz.gumroad.com/l/suydt>`__ which covers loads of recommendations to write faster, more accurate tests.
+I created pytest-reverse whilst working on the book!
 
 ----
 
