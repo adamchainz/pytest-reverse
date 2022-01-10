@@ -2,6 +2,8 @@
 History
 =======
 
+* Drop Python 3.6 support.
+
 * Improve group name in ``pytest --help``.
 
 1.3.0 (2021-08-12)
