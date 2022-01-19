@@ -1,4 +1,6 @@
-from typing import Generator, List
+from __future__ import annotations
+
+from typing import Generator
 
 import pytest
 from _pytest.config import Config
@@ -18,7 +20,7 @@ def pytest_addoption(parser: Parser) -> None:
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
 def pytest_collection_modifyitems(
-    config: Config, items: List[Item]
+    config: Config, items: list[Item]
 ) -> Generator[None, None, None]:
     if config.getoption("reverse"):
         items[:] = items[::-1]
