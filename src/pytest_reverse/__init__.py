@@ -18,7 +18,8 @@ def pytest_addoption(parser: Parser) -> None:
     )
 
 
-@pytest.hookimpl(hookwrapper=True, tryfirst=True)
+# pytest missing type hints for @hookimpl
+@pytest.hookimpl(hookwrapper=True, tryfirst=True)  # type: ignore [misc]
 def pytest_collection_modifyitems(
     config: Config, items: list[Item]
 ) -> Generator[None, None, None]:
