@@ -2,7 +2,7 @@
 pytest-reverse
 ==============
 
-.. image:: https://img.shields.io/github/workflow/status/adamchainz/pytest-reverse/CI/main?style=for-the-badge
+.. image:: https://img.shields.io/github/actions/workflow/status/adamchainz/pytest-reverse/main.yml?branch=main&style=for-the-badge
    :target: https://github.com/adamchainz/pytest-reverse/actions?workflow=CI
 
 .. image:: https://img.shields.io/pypi/v/pytest-reverse.svg?style=for-the-badge
