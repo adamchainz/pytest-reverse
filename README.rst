@@ -17,6 +17,14 @@ pytest-reverse
 
 Pytest plugin to reverse test order.
 
+----
+
+**Testing a Django project?**
+Check out my book `Speed Up Your Django Tests <https://adamchainz.gumroad.com/l/suydt>`__ which covers loads of recommendations to write faster, more accurate tests.
+I created pytest-reverse whilst working on the book!
+
+----
+
 Installation
 ============
 
@@ -27,14 +35,6 @@ Install with:
     python -m pip install pytest-reverse
 
 Python 3.8 to 3.12 supported.
-
-----
-
-**Testing a Django project?**
-Check out my book `Speed Up Your Django Tests <https://adamchainz.gumroad.com/l/suydt>`__ which covers loads of recommendations to write faster, more accurate tests.
-I created pytest-reverse whilst working on the book!
-
-----
 
 Usage
 =====
