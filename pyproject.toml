@@ -39,6 +39,7 @@ urls.Changelog = "https://github.com/adamchainz/pytest-reverse/blob/main/CHANGEL
 urls.Funding = "https://adamj.eu/books/"
 urls.Repository = "https://github.com/adamchainz/pytest-reverse"
 entry-points.pytest11.reverse = "pytest_reverse"
+
 [tool.isort]
 add_imports = [
   "from __future__ import annotations",
