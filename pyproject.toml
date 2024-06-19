@@ -8,12 +8,11 @@ requires = [
 name = "pytest-reverse"
 version = "1.7.0"
 description = "Pytest plugin to reverse test order."
-readme = { file = "README.rst", content-type = "text/x-rst" }
+readme = "README.rst"
 keywords = [
   "pytest",
   "reverse",
 ]
-license = { text = "MIT" }
 authors = [
   { name = "Adam Johnson", email = "me@adamj.eu" },
 ]
