@@ -19,9 +19,7 @@ def pytest_addoption(parser: Parser) -> None:
 
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
-def pytest_collection_modifyitems(
-    config: Config, items: list[Item]
-) -> Generator[None, None, None]:
+def pytest_collection_modifyitems(config: Config, items: list[Item]) -> Generator[None]:
     if config.getoption("reverse"):
         items[:] = items[::-1]
 
