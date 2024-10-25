@@ -6,7 +6,7 @@ requires = [
 
 [project]
 name = "pytest-reverse"
-version = "1.7.0"
+version = "1.8.0"
 description = "Pytest plugin to reverse test order."
 readme = "README.rst"
 keywords = [
