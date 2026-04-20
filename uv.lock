@@ -94,7 +94,7 @@ test = [
 requires-dist = [{ name = "pytest" }]
 
 [package.metadata.requires-dev]
-test = [{ name = "pytest" }]
+test = [{ name = "pytest", specifier = ">=9" }]
 
 [[package]]
 name = "tomli"
