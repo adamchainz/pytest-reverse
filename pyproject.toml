@@ -42,7 +42,7 @@ entry-points.pytest11.reverse = "pytest_reverse"
 
 [dependency-groups]
 test = [
-  "pytest",
+  "pytest>=9",
 ]
 
 [tool.ruff]
@@ -98,11 +98,7 @@ warn_unreachable = true
 overrides = [ { module = "tests.*", allow_untyped_defs = true } ]
 
 [tool.pytest]
-ini_options.addopts = """\
-    --strict-config
-    --strict-markers
-    """
-ini_options.xfail_strict = true
+strict = true
 
 [tool.rstcheck]
 report_level = "ERROR"
